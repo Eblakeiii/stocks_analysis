@@ -45,7 +45,7 @@ In refactoring the nested loop code, an index, as well as the arrays to store th
 
 The evaluated data are then placed onto a summary worksheet.  
 
-The processing time using arrays was shortened to .0859375 seconds for [2017](https://github.com/Eblakeiii/stocks_analysis/blob/master/resources/VBA_Challenge_2017.png) and .078125 seconds for [2018] (link).
+The processing time using arrays was shortened to .0859375 seconds for [2017](https://github.com/Eblakeiii/stocks_analysis/blob/master/resources/VBA_Challenge_2017.png) and .078125 seconds for [2018](https://github.com/Eblakeiii/stocks_analysis/blob/master/resources/VBA_Challenge_2018.png).
 
 ## Conclusion
 
