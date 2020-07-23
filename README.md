@@ -19,7 +19,7 @@ The original script was written with a nested loop.  In this case, for each of t
 
     Close outer loop
  			
-After each evaluation, data would be assigned to a variable and entered onto a worksheet.  The nested loop script took .5664063 seconds run the analysis for 2017 and .53125 seconds for 2018. (link to png files)
+After each evaluation, data would be assigned to a variable and entered onto a worksheet.  The nested loop script took .5664063 seconds run the analysis for [2017](https://github.com/Eblakeiii/stocks_analysis/blob/master/resources/Nested_2017.png) and .53125 seconds for [2018](https://github.com/Eblakeiii/stocks_analysis/blob/master/resources/Nested_2018.png).
 
 In comparison, the refactored code reviews each row of data only once, taking 3,012 passes through the dataset.   The use of arrays allows this methodology.  An array is essentially a single variable that can hold multiple elements.  You could think of the array like a grocery list – it’s one piece of paper but contains many items.  Where a variable would only store one (1) value, an array can store many values while utilizing the storage capacity of one (1) variable.  Reducing storage used makes the process faster.  
 
